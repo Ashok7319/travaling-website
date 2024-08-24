@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book my Journey</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styel.css">
+   
+</head>
+<body>
+    <header>
+        
+
+        <a href="#" class="logo"><span>Book My</span>Journey</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            
+            <a href="#contact">contact</a>
+            
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action=" " class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+
+        <i class="fa-solid fa-xmark" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is worthwhile</h3>
+            <p>Discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">Discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="video1.mp4"></span>
+            <span class="vid-btn" data-src="video2.mp4"></span>
+            <span class="vid-btn" data-src="video3.mp4"></span>
+            <span class="vid-btn" data-src="video4.mp4"></span>
+            
+        </div>
+
+        <div class="video-container">
+            <video src="video1.mp4" id="video-slider" loop autoplay muted></video>
+
+            
+        </div>
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="photo1.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+             
+    </section>
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+          <div class="box">
+            <img src="mumbai.jpg" alt=" ">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="kasmir.jpg" alt=" ">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>kashmir</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+            </div>
+
+            <div class="box">
+                <img src="ladhak.jpg" alt=" ">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>ladakh</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+                </div>
+
+                <div class="box">
+                    <img src="nepal.jpg" alt=" ">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>nepal</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, nam!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">$90.00<span>$120.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="darjiling.jpg" alt=" ">
+                        <div class="content">
+                            <h3><i class="fas fa-map-marker-alt"></i>darjeeling</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, nam!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$90.00<span>$120.00</span></div>
+                            <a href="#" class="btn">book now</a>
+                        </div>
+                        </div>
+                       
+                        <div class="box">
+                            <img src="rajasthan.jpg" alt=" ">
+                            <div class="content">
+                                <h3><i class="fas fa-map-marker-alt"></i>rajasthan</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, nam!</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">$90.00<span>$120.00</span></div>
+                                <a href="#" class="btn">book now</a>
+                            </div>
+                            </div>
+                            </div>
+    </section>
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>afforadable hotels</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventor commoid earum,quis voluptate exercitationem ut minima itaque iusto ipsum corrupti</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventor commoid earum,quis voluptate exercitationem ut minima itaque iusto ipsum corrupti</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventor commoid earum,quis voluptate exercitationem ut minima itaque iusto ipsum corrupti</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the wrold</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventor commoid earum,quis voluptate exercitationem ut minima itaque iusto ipsum corrupti</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventor commoid earum,quis voluptate exercitationem ut minima itaque iusto ipsum corrupti</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventor commoid earum,quis voluptate exercitationem ut minima itaque iusto ipsum corrupti</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Jammu and Kashmir is the northernmost state of the Union of India. The state shares international border with China and Afghanistan in the north, Tibet in the east and Pakistan in the west.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Nepal is a landlocked country in South Asia that's located in the Himalayas and bordered by India and China. It's known for being the birthplace of Gautama Buddha and home to Mount Everest,</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Bhutan is a small, landlocked country in South Asia, located in the eastern Himalayas between China and India</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Himachal Pradesh is a state in northern India that's located in the western Himalayas. It's known for its scenic beauty, which includes mountains, valleys, lakes, and rivers.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Sikkim is a state in northeast India, located in the eastern Himalayas. It's one of the smallest and least populated states in India, covering an area of 7,096 sq km and with a population of about 6.32 lakhs.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Punjab is a region in both India and Pakistan One of India's smallest states, Punjab is located in northwest India and covers 50,362 square kilometers.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Bihar is a state in eastern India that's landlocked and bordered by Nepal to the north, West Bengal to the east, Uttar Pradesh to the west, and Jharkhand to the south.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Gujarat is a state in India located on the western coast. It's the fifth largest state in India by area and the ninth largest by population.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Delhi, officially the National Capital Territory (NCT) of Delhi, is India's capital city and a union territory. It's located in the northern part of the country, on the banks of the Yamuna river,</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img12.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Chennai, formerly known as Madras, is the capital of Tamil Nadu, India's southernmost state. It's located on the Coromandel Coast of the Bay of Bengal, and stretches along the coast and inland. Chennai is India's fifth largest city, with an estimated population of 12.05 million in 2024. It's also the 31st largest metropolitan area in the world.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+            
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="c1.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="email">
+                    <input type="number" placeholder="Number">
+                    <input type="text" placeholder="subject">
+                    </div>
+                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+
+    </section>
+    
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, excepturi explicabo ipsum doloribus voluptate ex cumque, nisi sed assumenda eveniet tempora earum fugit ducimus consequuntur illo id consectetur ad officiis!</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+                
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+
+                
+            </div>
+
+            <div class="box">
+                <h3>floow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+                
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    
+</body>
+</html>
